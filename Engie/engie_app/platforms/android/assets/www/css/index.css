@@ -1,0 +1,140 @@
+/*body
+{
+	background-color: #505050;
+	margin: 0;
+	padding: 0;
+}
+
+#fond
+{
+	margin: 0 auto;
+	width: 1vw;
+	height: 1vh;
+	position: relative;
+}
+
+.block
+{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 10px 10px 10px 0px #000000;
+	-webkit-box-shadow: 10px 10px 10px 0px #000000;
+	-o-box-shadow: 10px 10px 10px 0px #000000;
+	box-shadow: 10px 10px 10px 0px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
+}
+
+#header {
+	background-color: #909090;
+	height: 137px;
+	width: 1420px;
+	margin: 18px 0 20px;
+	position: relative;
+}
+
+#menu {
+	width: 140px;
+	height: 416px;
+	background-color: #909090;
+	float: left;
+	margin: 0 20px 0 30px;
+	padding-top: 9px;
+}
+
+#content {
+	width: 1020px;
+	height: 582px;
+	background-color: #909090;
+	float: left;
+	margin: 0 10px;
+}
+
+#info {
+	width: 140px;
+	height: 416px;
+	background-color: #909090;
+	float: left;
+	margin: 0 25px 0 20px;
+	padding-top: 9px;
+}
+
+#formulaire {
+	position: absolute;
+	margin: -75px 0 0 -45px;
+	width: 500px;
+	height: 130px;
+	background-color: #88FF89;
+	padding: 20px 10px;
+}
+*/
+body {
+	background-color: #505050;
+	margin: 0;
+	padding: 0;
+
+}
+
+#center {
+	margin: 0 auto;
+	width: 1420px;
+	
+	position: relative;
+}
+.block {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 10px 10px 10px 0px #000000;
+	-webkit-box-shadow: 10px 10px 10px 0px #000000;
+	-o-box-shadow: 10px 10px 10px 0px #000000;
+	box-shadow: 10px 10px 10px 0px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
+}
+
+#header {
+	background-color: #909090;
+	height: 18%;
+	width: 15%;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+
+#menu {
+	background-color: #909090;
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	width: 15%;
+	height: 70%;
+}
+
+#content {
+	background-color: #909090;
+	position: absolute;
+	left: 16%;
+	top: 9%;
+	width: 70%;
+	height: 85%;
+	float: left;
+	margin: 0 10px;
+}
+
+#info {
+	background-color: #909090;
+	width: 11%;
+	height: 55%;
+	position: absolute;
+	left: 88%;
+	top: 30%;
+}
+
+#formulaire {
+	position: absolute;
+	margin: -75px 0 0 -45px;
+	width: 500px;
+	height: 130px;
+	background-color: #88FF89;
+	padding: 20px 10px;
+}
