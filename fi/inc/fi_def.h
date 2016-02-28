@@ -18,11 +18,6 @@
 # define NIB_0F00 (unsigned short int)0x0F00
 # define NIB_F000 (unsigned short int)0xF000
 
-
-// unsigned short int			id[19] = {51, 15, 4369, 23, 113, 71, 116, 275, 547, 802, 785, 561, 306, 54, 99, 39, 114, 305, 562};
-
-
-
 typedef struct 				s_fi
 {
 	char					*file;
@@ -33,6 +28,7 @@ typedef struct 				s_fi
 	int						size;
 	int						max;
 	unsigned short int		*m;
+	int						*idc;
 }							t_fi;
 
 #endif
